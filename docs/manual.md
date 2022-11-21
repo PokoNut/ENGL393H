@@ -21,6 +21,8 @@ nav_order: 6
 
 ## Commonly Used Commands
 
+---
+
 ### [ls]
 
 list directory contents
@@ -38,6 +40,7 @@ Examples:
 ```
 
 ```
+---
 
 ### [touch]
 
@@ -53,7 +56,7 @@ Examples:
 ```
 
 ```
-
+---
 
 ### [man]
 
@@ -69,13 +72,96 @@ Examples:
 
 ```
 
-### mkdir
+---
 
-### rm
+### [cd]
 
-### cp
+Change the working directory.
 
-### mov
+Usage:
+
+> cd [-L|-P] [directory]
+
+Examples:
+
+```
+
+```
+
+---
+
+### [mkdir]
+
+Make a directory/folder
+
+Usage:
+
+> mkdir [OPTION]... DIRECTORY...
+
+Examples:
+
+```
+
+```
+
+### [rm]
+
+Removes a file or a directory
+
+Usage:
+
+> rm [OPTION]... [FILE]...
+
+Options:
+* **-r, -R, --recursive** 
+* **-f, --force**
+
+Examples:
+
+```
+
+```
+---
+
+### [cp]
+
+copies files or directories
+
+Usage:
+
+> cp [OPTION]... SOURCE DEST
+> cp [OPTION]... SOURCE... DIRECTORY
+
+Options:
+* **-n, --no-clobber** 
+* **-u, --update**
+* **-R, -r, --recursive**
+
+Examples:
+
+```
+
+```
+---
+
+### [mv]
+
+Move or rename a file
+
+Usage:
+
+> mv [OPTION]... SOURCE DEST
+> mv [OPTION]... SOURCE... DIRECTORY
+
+Options:
+* **-n, --no-clobber** 
+* **-u, --update**
+
+Examples:
+
+```
+
+```
 
 ---
 
@@ -84,6 +170,8 @@ Examples:
 ### apt-get
 
 ### vim
+
+### zip
 
 
 ---
@@ -94,3 +182,8 @@ Examples:
 [ls]: https://man7.org/linux/man-pages/man1/ls.1.html
 [touch]: https://man7.org/linux/man-pages/man1/touch.1.html
 [man]: https://man7.org/linux/man-pages/man1/man.1.html
+[cd]: https://man7.org/linux/man-pages/man1/cd.1p.html
+[mkdir]: https://man7.org/linux/man-pages/man1/mkdir.1.html
+[rm]: https://man7.org/linux/man-pages/man1/rm.1.html
+[cp]: https://man7.org/linux/man-pages/man1/cp.1.html
+[mv]: https://man7.org/linux/man-pages/man1/mv.1.html

@@ -46,11 +46,11 @@ Enter Richard Stallman, the creator of the Free Software Foundation and an MIT l
 
 To avoid predatory copyright use, Richard came up with the idea of "copyleft". Copyleft is a special kind of copyright, with its only limitation being that any work reegisted under copyleft must not prevent sharing. Additionlly, every modification or addition to sofware under copyleft **must** be licensed under similar rules. Thus, the concept of open source was born. 
 
-
-
 ---
 
 ## The Linux Kernel and GNU
+
+Many of the commands covered in the Manual section of this site were from GNU.
 
 
 
