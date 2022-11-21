@@ -45,13 +45,16 @@ Some of the more popular ones include:
 
 ## What Actually is Linux?
 
+What many refer to as the Linux operating system is actually a bit of a misnomer. It's more accurate to say that an operating system is based on the Linux kernel. The kernel of an operating system is said to be the core of an operating system, responsible for controlling how software on a computer may interact with software. Additional utilities, such as compilers or browsers, are bundled on top of the kernel.
+
+An operating system using the Linux kernel is called a Linux "distribution", which are generally responsible for including the additional utilities. Examples include Ubuntu and Debian, both of which run on the Linux kernel. For simplicity, I will continue to refer to any operating system using the Linux kernel as a Linux operating system.
 
 
 ---
 
 ## Closed Source v. Open Source
 
-Every kind of computer sofware is is made using source code. Closed source software, also known as proprietary software, means the source code is not accessible or modifieable by the public. In contrast, open source software is made available for anyone to read, and programmers may change the source code as needed.
+Every kind of computer software is is made using source code. Closed source software, also known as proprietary software, means the source code is not accessible or modifieable by the public. In contrast, open source software is made available for anyone to read, and programmers may change the source code as needed.
 
 Most software today is closed source. This includes many operating systems, most notably Windows and MacOS. Linux, however, is entirely open source. Because it is open source, Linux has many advantages over traditional operating systems.
 
@@ -62,6 +65,8 @@ Typically, open source software is usually free or discounted heavily. Notably, 
 Because Linux is free, it has a much lower barrier to entry than typical propreitary software. 
 
 ### Security 
+
+At first intuition, it may seem like closed-source software may be more secure than open source. However, the opposite is usually the case. Since the source code for proprietary software is not visible to the public, there is no guarantee that the developers have actually patched out security vulnerabilities. With open source, there are often a large number of developers working to take part in code reviews and fix bugs.
 
 ### Transparency
 

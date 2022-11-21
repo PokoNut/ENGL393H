@@ -23,9 +23,15 @@ Unix is characterized by a number of features made distinct from other operating
 
 ### Portability
 
+Simply put, the definition of software portability is the level of difficulty required to make a given piece of software run on any platform. An operating system with high portability should run on any kind of hardware, but one with low portability would be confined. It may seem like Windows and MacOS are already portable enough, but this is often only the case in personal computing. Unix pioneered the ability to run on many platforms, making it popular in industry.
+
 ### Multitasking
 
+Modern operating systems can have many different applications running at the same time. This is referred to as multitasking, or the ability to divide the processor's time between many tasks. Technically, it only looks like everything is running at the same time (although modern processors actually can run multiple processes). Unix was the first operating system to implement such a concept.
+
 ### Heirarchical File System
+
+The file system is how drives and files are organized in an operating system. The principal unit of storage is called a "directory", which is analagous to a folder. Directories can store files or other directories. This makes file management and browsing much more convinient for users. 
 
 
 Despite its age, Unix is still a very modern, portable, and multi-tasking operating system. 

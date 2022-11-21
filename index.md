@@ -16,8 +16,6 @@ do developing in Linux environment section
 
 ![](./assets/logo.png)
 
-### Welcome to this guide to the Linux operating system! 
-
 Are you a computer science student? Are you interested in computer programming? Or maybe you're just tired of your old operating system? If so, may I offer to you the Linux operating system as an alternative to Windows or MacOS. At a surface level, by using Linux you may:
 
 * Have access to a lightweight and easy-to-run operating system that can run on pretty much anything
@@ -38,6 +36,5 @@ I am writing the user manual for the Linux operating system primarily for UMD co
 
 Since I am a senior computer science student, I already have much experience with Linux. Additionally, I am aware of many struggles introductory students have had with Linux based on my own experiences moving through the computer science major. All of the commands described as well as the ways to use Linux I have already tried and tested. Many of the commands and tips included I have found to be personally valuable in my time using Linux.
 
-----
 
 [here]: https://github.com/torvalds/linux
