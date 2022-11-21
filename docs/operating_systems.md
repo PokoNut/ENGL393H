@@ -41,11 +41,27 @@ Some of the more popular ones include:
 * Android: Another mobile operating system. Interestingly, Android is based on a modified version of Linux. 
 * Linux: Based on an older operating system called Unix. It has many different distributions, many of which are free. 
 
+---
+
+## What Actually is Linux?
+
+
+
+---
+
 ## Closed Source v. Open Source
 
 Every kind of computer sofware is is made using source code. Closed source software, also known as proprietary software, means the source code is not accessible or modifieable by the public. In contrast, open source software is made available for anyone to read, and programmers may change the source code as needed.
 
 Most software today is closed source. This includes many operating systems, most notably Windows and MacOS. Linux, however, is entirely open source. Because it is open source, Linux has many advantages over traditional operating systems.
 
-### Pricing
+### Pricing and Accessibility
+
+Typically, open source software is usually free or discounted heavily. Notably, Linux has many free distributions such as Ubuntu and Debian. While this manual will primarily focus on Ubuntu Linux, there are many other distributions available. Many programmers have their own favorite distribution to use. 
+
+Because Linux is free, it has a much lower barrier to entry than typical propreitary software. 
+
+### Security 
+
+### Transparency
 
