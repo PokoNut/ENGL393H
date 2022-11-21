@@ -47,5 +47,5 @@ Every kind of computer sofware is is made using source code. Closed source softw
 
 Most software today is closed source. This includes many operating systems, most notably Windows and MacOS. Linux, however, is entirely open source. Because it is open source, Linux has many advantages over traditional operating systems.
 
-Pricing
+### Pricing
 

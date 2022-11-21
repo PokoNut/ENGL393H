@@ -3,30 +3,16 @@ title: Home
 layout: home
 nav_order: 1
 ---
+# Home
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+![](./assets/logo.png)
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+## Welcome to a Beginner's Guide to Linux!
 
-More specifically, the created site:
+---
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+### Cover Memo
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+I am writing the user manual for the Linux operating system primarily for UMD computer science students, but also any student interested in programming. The manual will first describe Linux and its importance to a programmer, and then go into the basics such as installation and common use cases. To accomplish this, I will be creating a website that will present the manual in an intuitive and engaging manner. Ideally, the website will be presented to students as part of an introductory course so that they are already familiar with Linux by the time they reach their advanced courses. I chose this type of document specifically because I am trying to convey how to use Linux. A manual is best suited towards describing best practices and usage of any particular tool, in this case the Linux operating system. 
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, just click "[use this template]"!
-
-----
-
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+Since I am a senior computer science student, I already have much experience with Linux. Additionally, I am aware of many struggles introductory students have had with Linux based on my own experiences moving through the computer science major. All of the commands described as well as the ways to use Linux I have already tried and tested. Many of the commands and tips included I have found to be personally valuable in my time using Linux.
