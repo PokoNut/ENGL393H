@@ -65,3 +65,4 @@ Because Linux is free, it has a much lower barrier to entry than typical proprei
 
 ### Transparency
 
+Nowadays, proprietary software often uses its status as closed-source as an opportunity to take advantage of the user. Because their code is innaccessible, there is no way to deterine if software collects and distributes user data to third parties. Since open source software is pubically available, it is easy to determine if user data is being abused unnecessarily. 

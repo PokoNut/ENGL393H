@@ -13,9 +13,29 @@ nav_order: 6
 1. TOC
 {:toc}
 
+
 ---
 
 ## Commonly Used Commands
+
+#### ls
+
+#### touch 
+
+#### vim
+
+#### mkdir
+
+#### rm
+
+#### cp
+
+#### mov
+
+#### apt-get
+
+
+
 
 ---
 
