@@ -5,13 +5,6 @@ nav_order: 1
 ---
 # Home
 
-## TODO:
-get links working
-
-add more images
-
-do developing in Linux environment section
-
 ## Welcome to a Beginner's Guide to Linux!
 
 ![](./assets/logo.png)
