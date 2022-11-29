@@ -49,7 +49,6 @@ What many refer to as the Linux operating system is actually a bit of a misnomer
 
 An operating system using the Linux kernel is called a Linux "distribution", which are generally responsible for including the additional utilities. Examples include Ubuntu and Debian, both of which run on the Linux kernel. For simplicity, I will continue to refer to any operating system using the Linux kernel as a Linux operating system.
 
-
 ---
 
 ## Closed Source v. Open Source

@@ -17,6 +17,19 @@ nav_order: 6
 
 ## Anatomy of a Command
 
+Now that you've (hopefully) followed one of the installation guides, we can cover how to use Linux's command-line interface (CLI). For most programmers, this is the primary reason they use Linux. If you are using a linux server or a development container, you should already have access to the CLI directly. However, if you are running Linux off of a flashdrive or are using a virutal machine you may have to locate the terminal/command-line application.
+
+Typically, a command is composed of three elements separated by one or more spaces: a name, a list of options, and a list of arguments. 
+
+### Name
+The name of a command always comes first. Technically, it is the name of the program we are trying to run. This may seem strange intitially, but every basic function of an operating system, when it comes down to it, is just a program. When you run a program from CLI, it searches for it in dedicated directories (usually /usr/bin/). Once the program is located, it may then be loaded from its file. 
+
+### Options
+The options of a command are parameters used to change the program's behavior. They are preceded by either a dash or a double dash.
+
+### Arguments
+The arguments of a command are the actual values the program uses as input, such as a number, a file, or a text input. 
+
 ---
 
 ## Commonly Used Commands
@@ -41,6 +54,8 @@ Examples:
 
 ```
 ---
+
+### pwd
 
 ### [touch]
 
