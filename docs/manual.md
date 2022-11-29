@@ -25,20 +25,18 @@ Typically, a command is composed of three elements separated by one or more spac
 The name of a command always comes first. Technically, it is the name of the program we are trying to run. This may seem strange intitially, but every basic function of an operating system, when it comes down to it, is just a program. When you run a program from CLI, it searches for it in dedicated directories (usually /usr/bin/). Once the program is located, it may then be loaded from its file. 
 
 ### Options
-The options of a command are parameters used to change the program's behavior. They are preceded by either a dash or a double dash.
+The options of a command are parameters used to change the program's behavior. They are preceded by either a dash or a double dash. In this guide, I have ommitted many less-important options for clarity. Note that you can list arguments seperately (-a -b -c ...) or combine them (-abc) for the same effect.
 
 ### Arguments
-The arguments of a command are the actual values the program uses as input, such as a number, a file, or a text input. 
+The arguments of a command are the actual values the program uses as input, such as a number, a file, or a text input. When supplying a directory as an argument, you may use "." to refer to the current directory and ".." to refer to the parent directory.
 
 ---
 
 ## Commonly Used Commands
 
----
-
 ### [ls]
 
-list directory contents
+Lists directory contents. 
 
 Usage:
 
@@ -46,16 +44,49 @@ Usage:
 
 Options:
 * **-a, --all**: do not ignore entries starting with ".". This allows you to find hidden files. Generally, software developers will hide important files or backups by prefixing "." to the file name, making them normally invisible to the user.
-*
+* **-R, --recursive**: lists subdirectories recursively. In other words, files stored in directories inside the current directory will also be listed.
+* **-t**: sorts by time, newest first.
 
 Examples:
 
 ```
+# List the files in the current directory
+ls
+file_a  file_b  folder_c
 
+
+# List all files, including hidden ones
+ls -a 
+file_a  file_b  folder_c
+.file_d  .file_e  .file_f
+
+
+# List all files, inclding those in folders
+ls -R
+file_a  file_b  folder_c
+
+./folder_c:
+file_d  file_e  file_f
 ```
 ---
 
-### pwd
+### [pwd]
+
+Prints the name of the current/working directory.
+
+Usage:
+
+> pwd [OPTION]...
+
+Examples:
+
+```
+# Lists the current directory
+pwd
+/home/bob
+```
+---
+
 
 ### [touch]
 
@@ -69,7 +100,18 @@ Usage:
 Examples:
 
 ```
+# List files in current directory
+ls 
+file_a  file_b
 
+
+# Create a file called file_c
+touch file_c
+
+
+# List files in current directory, there is a new file called file_c
+ls
+file_a  file_b  file_c
 ```
 ---
 
@@ -81,11 +123,7 @@ Usage:
 
 > man [man options] [[section] page ...] ...
 
-Examples:
-
-```
-
-```
+The output for man is too long to list here, but it displays similar information to what you will find from the completed documentation linked on this page. Press q to exit man.
 
 ---
 
@@ -100,7 +138,18 @@ Usage:
 Examples:
 
 ```
+# List files in current directory
+ls
+folder_a
 
+
+# Move into the directory folder_a
+cd folder_a
+
+
+# Now that you are in the new directory, you can perform other commands
+ls
+file_a  file_b  file_c
 ```
 
 ---
@@ -116,7 +165,16 @@ Usage:
 Examples:
 
 ```
+# Make a directory called folder_a
+mkdir folder_a
 
+
+# Move into the new directory
+cd folder_a
+
+
+# Make a new file inside the directory
+touch file_a
 ```
 
 ### [rm]
@@ -128,12 +186,32 @@ Usage:
 > rm [OPTION]... [FILE]...
 
 Options:
-* **-r, -R, --recursive** 
-* **-f, --force**
+* **-r, -R, --recursive**: deletes directories and all files in them.
+* **-f, --force**: ignore files that do not exist, and never ask for confirmation. 
 
 Examples:
 
 ```
+# Check contents of directory
+ls
+file_a  file_b  folder_c
+
+
+# Remove file_a
+rm file_a
+remove file? y
+
+
+# Remove file_b with no confirmation
+rm -f file_b
+
+
+# Remove folder_c with no confirmation
+rm -rf folder_c
+
+
+# Check the directory is now empty
+ls
 
 ```
 ---
@@ -148,14 +226,28 @@ Usage:
 > cp [OPTION]... SOURCE... DIRECTORY
 
 Options:
-* **-n, --no-clobber** 
-* **-u, --update**
-* **-R, -r, --recursive**
+* **-n, --no-clobber**: avoids overwriting an existing file. 
+* **-u, --update**: copies only if the SOURCE file is newer than the destination file, or if it is missing.
+* **-R, -r, --recursive**: copies recursively. Use this to copy entire folders.
 
 Examples:
 
 ```
+# List directory contents
+ls
+file_a  folder_b  folder_c
 
+
+# Copy file_a into folder_b
+cp file_a folder_b
+
+# Copy folder_c into folder_b
+cp -r folder_c folder_b
+
+
+# List directory contents
+ls
+file_a  folder_b  folder_c
 ```
 ---
 
@@ -169,13 +261,32 @@ Usage:
 > mv [OPTION]... SOURCE... DIRECTORY
 
 Options:
-* **-n, --no-clobber** 
-* **-u, --update**
+* **-n, --no-clobber**: moves only if the SOURCE file is newer than the destination file, or if it is missing.
+* **-u, --update**: moves recursively. Use this to move entire folders.
 
 Examples:
 
 ```
+# List directory contents
+ls
+file_a  folder_b  folder_c  file_d
 
+
+# Move file_a into folder_b
+mov file_a folder_b
+
+
+# Move folder_c into folder_b
+mov -r folder_c folder_b
+
+
+# Rename file_d into file_z
+mov file_d file_z
+
+
+# List directory contents
+ls
+folder_c    file_z
 ```
 
 ---
@@ -186,7 +297,7 @@ Examples:
 
 ### vim
 
-### zip
+### lrzip
 
 
 ---
@@ -202,3 +313,4 @@ Examples:
 [rm]: https://man7.org/linux/man-pages/man1/rm.1.html
 [cp]: https://man7.org/linux/man-pages/man1/cp.1.html
 [mv]: https://man7.org/linux/man-pages/man1/mv.1.html
+[pwd]: https://man7.org/linux/man-pages/man1/pwd.1.html

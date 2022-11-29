@@ -36,11 +36,11 @@ Out of the box, many Linux distributions offer some kind of customization for ic
 
 These are some examples from high-level users on r/unixporn:
 
-![](./assets/Axarva27.png)
+![](../assets/Axarva27.png)
 posted by u/Axarva27
 
 
-![](./assets/Schneegans.gif)
+![](../assets/Schneegans.gif)
 posted by u/Schneegans
 
 ---
