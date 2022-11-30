@@ -50,7 +50,7 @@ With the two extensions installed, you can click the icon in the very bottom lef
 
 ### Access the Container's Terminal
 
-Now that your container has launched, you can open a terminal window for access to a Linux command-line, and all its associated tools. Keep in mind that since this is a container, most Linux tools will need to be installed manually through apt-get. Additionally, containers are ill-suited for certain project like web-development since they have no browser. 
+Now that your container has launched, you can open a terminal window for access to a Linux command line and all its associated tools. Keep in mind that since this is a container, most Linux tools will need to be installed manually through apt-get. Additionally, containers are unsuitable for certain projects like web development since containers have no browser. 
 
 ![](../../assets/container3.PNG)
 
