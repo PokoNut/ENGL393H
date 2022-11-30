@@ -32,17 +32,17 @@ You will need to install [docker] desktop and [visual studio code] respectively.
 
 Launch both docker and VSCode. You may be prompted to install recommended docker extensions, but if not you should click the extensions tab on the left to install the "Docker" and "Dev Container" extensions.
 
-![](../../assets/container1.png)
+![](../../assets/container1.PNG)
 
 ### Open Folder in Remote in Container
 
 With the two extensions installed, you can click the icon in the very bottom left, which will open a new menu. Then, click "open folder in container". Select the root folder of a project you want to develop in. You will be presented with a few options, but most can be ignored with the exception of the first one. Be sure to select Ubuntu or Debian, but if your project is in C++ feel free to pick that instead.
 
-![](../../assets/container2.png)
+![](../../assets/container2.PNG)
 
 Now that your container has launched, you can open a terminal window for access to a Linux command-line, and all its associated tools. Keep in mind that since this is a container, most Linux tools will need to be installed manually through apt-get. Additionally, containers are ill-suited for certain project like web-development since they have no browser. 
 
-![](../../assets/container3.png)
+![](../../assets/container3.PNG)
 
 [docker]: https://www.docker.com/products/docker-desktop/
 [visual studio code]: https://code.visualstudio.com/ 

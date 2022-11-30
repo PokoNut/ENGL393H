@@ -36,7 +36,7 @@ Depending on which distribution you end up using, it may be more or less straigh
 
 Out of the box, many Linux distributions offer some kind of customization for icons and desktop themes. Additionally, you may swap around or even design you own custom window managers, desktop environments, and widgets. 
 
-These are some examples from high-level users on r/unixporn:
+Here are a couple examples from high-level users on r/unixporn:
 
 
 ![](../assets/Axarva27.png)
