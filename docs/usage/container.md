@@ -30,7 +30,12 @@ You will need to install [docker] desktop and [visual studio code] respectively.
 
 ### Install VSCode Docker Extensions
 
+![](../../assets/container1.png)
+
 ### Open Folder in Remote in Container
+
+![](../../assets/container2.png)
+![](../../assets/container3.png)
 
 [docker]: https://www.docker.com/products/docker-desktop/
 [visual studio code]: https://code.visualstudio.com/ 

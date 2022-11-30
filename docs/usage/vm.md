@@ -23,6 +23,10 @@ nav_order: 1
 You will need to download [ubuntu] desktop and [virtualbox] respectively. 
 
 ## Steps
+![](../../assets/vm1.png)
+![](../../assets/vm2.png)
+![](../../assets/vm3.png)
+![](../../assets/vm4.png)
 
 Note that there is a minimum disk space and memory required. Otherwise, installation may fail. 
 

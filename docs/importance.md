@@ -26,6 +26,8 @@ It should be noted that in an effort to draw developers to their platform, both 
 
 The main difference is that Windows and MacOS have both designed their command lines around their GUI. At a surface level, they function similarly to Linux. However, in many cases features are gated behind using their GUI and you are forced to out of the command line anyway. That is not to say they have no use: both Apple and Microsoft have made great efforts in developing the functionality of their CLI. 
 
+![](../assets/terminal.png)
+
 ---
 
 ## Customization
