@@ -5,7 +5,7 @@ parent: Developing in a Linux Environment
 nav_order: 3
 ---
 
-# Booting from a Flashdrive
+# UMD's Grace Server
 {: .no_toc }
 
 ## Table of contents

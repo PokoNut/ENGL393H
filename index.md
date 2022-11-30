@@ -21,5 +21,20 @@ The goal of this guide is to impart knowledge of how Linux can accomplish these 
 
 Check out the source repository for Linux [here].
 
+<button class="btn js-toggle-dark-mode">Light Mode</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Dark Mode';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Light Mode;
+  }
+});
+</script>
 
 [here]: https://github.com/torvalds/linux

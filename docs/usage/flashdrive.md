@@ -16,9 +16,11 @@ nav_order: 4
 
 ---
 
-## What is a Container?
+I DO NOT RECOMMEND THIS
 
 ## Requirements
+
+You will need to download [ubuntu] desktop and have a USB drive with atleast 8GB of storage. Additionally, you will need to install a utility for your existing operating system for formatting and creating bootable flash drives.
 
 [here]: https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview
 [ubuntu]: https://ubuntu.com/download/desktop

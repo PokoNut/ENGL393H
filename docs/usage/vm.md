@@ -20,6 +20,12 @@ nav_order: 1
 
 ## Requirements
 
+You will need to download [ubuntu] desktop and [virtualbox] respectively. 
+
+## Steps
+
+Note that there is a minimum disk space and memory required. Otherwise, installation may fail. 
+
 [here]: https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview
 [ubuntu]: https://ubuntu.com/download/desktop
 [virtualbox]: https://www.virtualbox.org/

@@ -18,8 +18,22 @@ nav_order: 2
 
 ## What is a Container?
 
+A container is essentailly an entire runtime environment: an application, its dependencies, and libraries. They are a form of operating system virtualization. It can be helpful to conceptualize them as miniature virtual machines, with much of the functionality stripped away.
+
+Usually, these are used to package software so that it may run reliablely on any computer. However, we may repurpose them as a full-featured development environment with all of the usual Linux command-line tools. 
+
 ## Requirements
+
+You will need to install [docker] desktop and [visual studio code] respectively. 
+
+## Steps
+
+### Install VSCode Docker Extensions
+
+### Open Folder in Remote in Container
 
 [docker]: https://www.docker.com/products/docker-desktop/
 [visual studio code]: https://code.visualstudio.com/ 
-[here]: https://code.visualstudio.com/docs/devcontainers/containers
+[VSCode]: https://code.visualstudio.com/docs/devcontainers/containers
+[Docker]: https://docs.docker.com/desktop/dev-environments/create-dev-env/
+

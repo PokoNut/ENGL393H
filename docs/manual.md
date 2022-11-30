@@ -30,6 +30,8 @@ The options of a command are parameters used to change the program's behavior. T
 ### Arguments
 The arguments of a command are the actual values the program uses as input, such as a number, a file, or a text input. When supplying a directory as an argument, you may use "." to refer to the current directory and ".." to refer to the parent directory.
 
+Sometimes, a command may need higher-level permissions to run (similar to how other operating systems may ask for administrator passwords). You can prefix the command with "sudo" to run the command as a "superuser," which is the same as an administrator.
+
 ---
 
 ## Commonly Used Commands
@@ -293,7 +295,11 @@ folder_c    file_z
 
 ## Other Helpful Tools
 
+
+
 ### apt-get
+
+On Linux operating systems that use the APT packae management system, the apt-get command is used to install, remove, and perfor
 
 ### vim
 
