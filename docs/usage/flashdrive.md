@@ -16,7 +16,7 @@ nav_order: 4
 
 ---
 
-I DO NOT RECOMMEND THIS
+## The Boot-Up Process
 
 ## Requirements
 

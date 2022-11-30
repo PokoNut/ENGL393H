@@ -299,11 +299,14 @@ folder_c    file_z
 
 ### apt-get
 
-On Linux operating systems that use the APT packae management system, the apt-get command is used to install, remove, and perfor
+On Linux operating systems that use the APT package management system, the apt-get command is used to install, remove, and perform maintenence on your Linux utilites. 
 
 ### vim
 
+vim is a basic command-line text editor. 
+
 ### lrzip
+
 
 
 ---

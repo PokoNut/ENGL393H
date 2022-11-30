@@ -22,9 +22,13 @@ A container is essentailly an entire runtime environment: an application, its de
 
 Usually, these are used to package software so that it may run reliablely on any computer. However, we may repurpose them as a full-featured development environment with access to the usual Linux command-line tools. 
 
+---
+
 ## Requirements
 
 You will need to install [docker] desktop and [visual studio code] respectively. 
+
+---
 
 ## Steps
 
@@ -34,15 +38,27 @@ Launch both docker and VSCode. You may be prompted to install recommended docker
 
 ![](../../assets/container1.PNG)
 
+---
+
 ### Open Folder in Remote in Container
 
-With the two extensions installed, you can click the icon in the very bottom left, which will open a new menu. Then, click "open folder in container". Select the root folder of a project you want to develop in. You will be presented with a few options, but most can be ignored with the exception of the first one. Be sure to select Ubuntu or Debian, but if your project is in C++ feel free to pick that instead.
+With the two extensions installed, you can click the icon in the very bottom left, which will open a new menu. Then, click "open folder in container". Select the root folder of a project you want to develop in. You will be presented with a few options, but most can be ignored with the exception of the first one. Be sure to select Ubuntu for this tutorial, but feel free to experiment with the other options later.
 
 ![](../../assets/container2.PNG)
+
+---
+
+### Access the Container's Terminal
 
 Now that your container has launched, you can open a terminal window for access to a Linux command-line, and all its associated tools. Keep in mind that since this is a container, most Linux tools will need to be installed manually through apt-get. Additionally, containers are ill-suited for certain project like web-development since they have no browser. 
 
 ![](../../assets/container3.PNG)
+
+---
+
+## Alternative Guides
+
+You can check out official guides for development containers from either the [VSCode] or [Docker] websites.
 
 [docker]: https://www.docker.com/products/docker-desktop/
 [visual studio code]: https://code.visualstudio.com/ 
