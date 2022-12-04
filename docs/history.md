@@ -50,7 +50,13 @@ To avoid predatory copyright use, Richard came up with the idea of "copyleft". C
 
 ## The Linux Kernel and GNU
 
-Many of the commands covered in the Manual section of this site were from GNU.
+In 1991 Linus Torvalds was a university student, when he purchsed an Intel IBM PC. He was disappointed with the operating systems available for his computer, so he started creating a terminal emulator based on Minix, another Unix-like operating system.
+
+Torvalds wanted his operating system to do more things, but he did not have the resources avialable to do so. It was then that he posted a message to Minix user group, saying "I'm doing a (free) operating system (just a hobby, won't be bing and professional like gnu) for 386(486) AT clones." What followed is now called the most important collaborative effort in the history of computers. 
+
+Despite the efforts of Linus and many of his collaborators, Linux was not a complete operating system. It had no applications or programs to run on top of it, so it was fairly useless on its own. Fortunately, a seperate project consisting of a collection of free tools and applications called GNU (piloted by Richard Stallman) was searching for an open-source, Unix-like kernel. 
+
+It is technically most accurate to call Linux GNU/Linux, but many programmeres simply refer to the project as Linux. For simplicity, I will continue to use Linux. 
 
 
 

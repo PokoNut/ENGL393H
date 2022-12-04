@@ -293,25 +293,9 @@ folder_c    file_z
 
 ---
 
-## Other Helpful Tools
-
-
-
-### apt-get
-
-On Linux operating systems that use the APT package management system, the apt-get command is used to install, remove, and perform maintenence on your Linux utilites. 
-
-### vim
-
-vim is a basic command-line text editor. 
-
-### lrzip
-
-
-
----
-
 ## More Complete Documentation
+
+You can check out further documentation for Linux at the [man-pages] website, an open-source project dedicated to the Linux kernel an GNU libraries.
 
 
 [ls]: https://man7.org/linux/man-pages/man1/ls.1.html
@@ -323,3 +307,4 @@ vim is a basic command-line text editor.
 [cp]: https://man7.org/linux/man-pages/man1/cp.1.html
 [mv]: https://man7.org/linux/man-pages/man1/mv.1.html
 [pwd]: https://man7.org/linux/man-pages/man1/pwd.1.html
+[man-pages]: https://www.kernel.org/doc/man-pages/
