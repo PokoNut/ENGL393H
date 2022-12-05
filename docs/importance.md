@@ -52,9 +52,19 @@ posted by u/Schneegans
 
 ## Superior Tools
 
+Because Linux is free and open-source, the bar to entry is very low. Customization options enable developers to streamline their workflow and increase output. Additionally, since Linux is open source it is generally easier to make tools for.
 
+For the aformentioned reasons and many more, software developers have flocked to Linux and built their own free developer tools. Generally speaking, many developer tools for proprietary operating systems like Windows are created by their own publishers (although many publishers are beginning to adopt open source). 
 
+As a result, the sheer volume and quality of Linux developer tools is much higher than other operating systems. If you have run into a problem, there are very good odds that someone else has run into the issue and built their own developer tool for it. 
 
 ---
 
 ## Control over the Computer
+
+In general, most proprietary operating systems were designed with the average consumer in mind. Because of this, many feature that developers need to access are typically locked behind miles of red tape and UI designed to obfuscate anything even remotely dangerous to the computer. 
+
+In contrast, Linux was made by software developers for software developers. Nothing is hidden from the user: every kind of setting or option is available from the command line with just a few commands
+
+This kind of transparency also makes it significantly easier to brick your own computer. Fortunately, Linux makes it easier to make an restore from backups.  
+
