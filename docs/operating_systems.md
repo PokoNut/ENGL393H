@@ -61,7 +61,7 @@ Most software today is closed source. This includes many operating systems, most
 
 Typically, open source software is usually free or discounted heavily. Notably, Linux has many free distributions such as Ubuntu and Debian. While this manual will primarily focus on Ubuntu Linux, there are many other distributions available. Many programmers have their own favorite distribution to use. 
 
-Because Linux is free, it has a much lower barrier to entry than typical propreitary software. 
+Because Linux is free, it has a much lower barrier to entry than typical proprietary software. 
 
 ### Security 
 
@@ -69,4 +69,4 @@ At first intuition, it may seem like closed-source software may be more secure t
 
 ### Transparency
 
-Nowadays, proprietary software often uses its status as closed-source as an opportunity to take advantage of the user. Because their code is innaccessible, there is no way to deterine if software collects and distributes user data to third parties. Since open source software is pubically available, it is easy to determine if user data is being abused unnecessarily. 
+Nowadays, proprietary software often uses its status as closed-source as an opportunity to take advantage of the user. Because their code is inaccessible, there is no way to determine if software collects and distributes user data to third parties. Since open source software is publically available, it is easy to determine if user data is being abused unnecessarily. 

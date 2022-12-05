@@ -40,7 +40,7 @@ Start by launching virtualbox. To launch a new virtual machine, click the add bu
 
 ### Select the Ubuntu ISO
 
-Be sure to name your virtual machine, and for the ISO select the ubuntu deskop ISO you downloaded previously. Then, continue with the process. 
+Be sure to name your virtual machine, and for the ISO select the ubuntu desktop ISO you downloaded previously. Then, continue with the process. 
 
 ![](../../assets/vm2.PNG)
 
@@ -48,7 +48,7 @@ Be sure to name your virtual machine, and for the ISO select the ubuntu deskop I
 
 ### Configuration
 
-You will be asked to create a username and password. This will be the administrator account, or the superuser. Additionally, you can tweek how much memory, disk space, and cpu cores the virtual machine can use. Note that if you give to little resources, the virtual machine may fail to initialize. If at any point in the initialization process the virtual machine fails, try allocating more resources.
+You will be asked to create a username and password. This will be the administrator account, or the superuser. Additionally, you can tweak how much memory, disk space, and cpu cores the virtual machine can use. Note that if you give too little resources, the virtual machine may fail to initialize. If at any point in the initialization process the virtual machine fails, try allocating more resources.
 
 ![](../../assets/vm3.PNG)
 

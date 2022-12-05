@@ -17,15 +17,15 @@ nav_order: 6
 
 ## Anatomy of a Command
 
-Now that you've (hopefully) followed one of the installation guides, we can cover how to use Linux's command-line interface (CLI). For most programmers, this is the primary reason they use Linux. If you are using a linux server or a development container, you should already have access to the CLI directly. However, if you are running Linux off of a flashdrive or are using a virutal machine you may have to locate the terminal/command-line application.
+Now that you've (hopefully) followed one of the installation guides, we can cover how to use Linux's command-line interface (CLI). For most programmers, this is the primary reason they use Linux. If you are using a linux server or a development container, you should already have access to the CLI directly. However, if you are running Linux off of a flash drive or are using a virtual machine you may have to locate the terminal/command-line application.
 
 Typically, a command is composed of three elements separated by one or more spaces: a name, a list of options, and a list of arguments. 
 
 ### Name
-The name of a command always comes first. Technically, it is the name of the program we are trying to run. This may seem strange intitially, but every basic function of an operating system, when it comes down to it, is just a program. When you run a program from CLI, it searches for it in dedicated directories (usually /usr/bin/). Once the program is located, it may then be loaded from its file. 
+The name of a command always comes first. Technically, it is the name of the program we are trying to run. This may seem strange initially, but every basic function of an operating system, when it comes down to it, is just a program. When you run a program from CLI, it searches for it in dedicated directories (usually /usr/bin/). Once the program is located, it may then be loaded from its file. 
 
 ### Options
-The options of a command are parameters used to change the program's behavior. They are preceded by either a dash or a double dash. In this guide, I have ommitted many less-important options for clarity. Note that you can list arguments seperately (-a -b -c ...) or combine them (-abc) for the same effect.
+The options of a command are parameters used to change the program's behavior. They are preceded by either a dash or a double dash. In this guide, I have omitted many less-important options for clarity. Note that you can list arguments separately (-a -b -c ...) or combine them (-abc) for the same effect.
 
 ### Arguments
 The arguments of a command are the actual values the program uses as input, such as a number, a file, or a text input. When supplying a directory as an argument, you may use "." to refer to the current directory and ".." to refer to the parent directory.
@@ -135,7 +135,7 @@ Change the working directory.
 
 Usage:
 
-> cd [-L|-P] [directory]
+> cd [directory]
 
 Examples:
 

@@ -18,9 +18,9 @@ nav_order: 2
 
 ## What is a Container?
 
-A container is essentailly an entire runtime environment: an application, its dependencies, and libraries. They are a form of operating system virtualization. It can be helpful to conceptualize them as miniature virtual machines, with much of the functionality stripped away.
+A container is essentially an entire runtime environment: an application, its dependencies, and libraries. They are a form of operating system virtualization. It can be helpful to conceptualize them as miniature virtual machines, with much of the functionality stripped away.
 
-Usually, these are used to package software so that it may run reliablely on any computer. However, we may repurpose them as a full-featured development environment with access to the usual Linux command-line tools. 
+Usually, these are used to package software so that it may run reliably on any computer. However, we may repurpose them as a full-featured development environment with access to the usual Linux command-line tools. 
 
 ---
 
