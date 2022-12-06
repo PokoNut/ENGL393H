@@ -119,13 +119,23 @@ file_a  file_b  file_c
 
 ### [man]
 
-An interface to the system reference manuals.
+An interface to the system reference manuals. Whenever you are interested in learning how a command works, you can type man and then the name of the command.
 
 Usage:
 
 > man [man options] [[section] page ...] ...
 
 The output for man is too long to list here, but it displays similar information to what you will find from the completed documentation linked on this page. Press q to exit man.
+
+Examples:
+```
+# Display the manual for ls
+man ls
+
+
+# Display the manual for pwd
+man pwd
+```
 
 ---
 
