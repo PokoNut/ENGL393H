@@ -28,7 +28,7 @@ Important functions include:
 * Security
 * Performance
 * User interface
-* Many other tasks
+* Many other tasks[1]
 
 ## Examples
 
@@ -70,3 +70,9 @@ At first intuition, it may seem like closed-source software may be more secure t
 ### Transparency
 
 Nowadays, proprietary software often uses its status as closed-source as an opportunity to take advantage of the user. Because their code is inaccessible, there is no way to determine if software collects and distributes user data to third parties. Since open source software is publically available, it is easy to determine if user data is being abused unnecessarily. 
+
+---
+
+[[1]]: https://www.tutorialspoint.com/operating_system/index.htm
+
+[1]: https://www.tutorialspoint.com/operating_system/index.htm 
