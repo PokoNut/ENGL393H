@@ -128,6 +128,7 @@ Usage:
 The output for man is too long to list here, but it displays similar information to what you will find from the completed documentation linked on this page. Press q to exit man.
 
 Examples:
+
 ```
 # Display the manual for ls
 man ls
