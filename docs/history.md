@@ -60,5 +60,5 @@ It is technically most accurate to call Linux GNU/Linux, but many  programmers s
 
 ---
 
-[[1]]: Raggi, E. (2011). Beginning ubuntu linux (6th ed., Ser. The expert's voice in linux). Apress. https://doi.org/10.1007/978-1-4302-3627-6 
+\[1]: Raggi, E. (2011). Beginning ubuntu linux (6th ed., Ser. The expert's voice in linux). Apress. https://doi.org/10.1007/978-1-4302-3627-6 
 
