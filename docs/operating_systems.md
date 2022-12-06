@@ -28,7 +28,7 @@ Important functions include:
 * Security
 * Performance
 * User interface
-* Many other tasks[1]
+* Many other tasks[[1]]
 
 ## Examples
 
